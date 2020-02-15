@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+body,html{
+    background-image: url("haha.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:grey;
+  }
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+.tab button:hover {
+    background-color: #ddd;
+  }
+
+.tab button.active {
+    background-color: gold;
+  }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+.haha{
+    margin-top: 250px;
+    margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font: italic;
+
+}
